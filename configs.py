@@ -6,7 +6,7 @@ class Config:
     BOT_TOKEN = getenv("BOT_TOKEN", "7968721529:AAH6akAWG8DRXb5rPe3Rf0PcKhejNjubkJY")
     
     # Your Force Subscribe Channel Id
-    CHID = int(getenv("CHID", ""))  # Make the bot admin in this channel
+    CHID = int(getenv("CHID", "-1002286203186"))  # Make the bot admin in this channel
     
     # Bot owners (use space-separated user IDs in env)
     SUDO = list(map(int, getenv("SUDO", "6853851676").split()))
